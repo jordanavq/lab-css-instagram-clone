@@ -13,7 +13,7 @@ body {
   font: 200 1rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 50px 0 0 0;
   padding: 0;
-  background-image: url("/00-Classes Labs/lab07-0106-css-instagram-clone/images/bgtile.png");
+  background-image: url("/images/bgtile.png");
   /* background-position: top; ---nao sei se faz diferença*/
   background-repeat: repeat-x;
   background-size: 100% 47%;
@@ -31,7 +31,7 @@ body {
   /* position: relative;
   text-align: center; */
   /* color: white; */
-  background-image: url("/00-Classes\ Labs/lab07-0106-css-instagram-clone/images/frame.png");
+  background-image: url("/images/frame.png");
   background-repeat: no-repeat;
   /* display: flex;
   align-items: center;  
@@ -40,6 +40,7 @@ body {
   /* background-size: cover; */
   /* background-position: center;
   background-repeat: no-repeat; */
+  padding: 20px;
 }
 
 #infoBox {
@@ -84,13 +85,12 @@ footer {
 
 nav ul {
   /* display: inline; */
-  width: 60%;
+  width: 100%;
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 
 
 li a {
